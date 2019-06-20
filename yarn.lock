@@ -9692,10 +9692,10 @@ serve-static@1.13.2:
     parseurl "~1.3.2"
     send "0.16.2"
 
-serverless-appsync-jest-plugin@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/serverless-appsync-jest-plugin/-/serverless-appsync-jest-plugin-0.0.1.tgz#effae90c2e5dda422292ea77b46e606d82e62a6e"
-  integrity sha512-ePTW17vuwgYNh2gjX4kiOACKNEQEJzXzsrsQHaPD+IGO5xCadKwk1iFiUpWT+Gxb8jdxzRKaSTbRj/Dgt4ILPw==
+serverless-appsync-jest-plugin@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/serverless-appsync-jest-plugin/-/serverless-appsync-jest-plugin-0.0.2.tgz#adadec43eed681f2a9fd26578c9b3ea0f0fcb658"
+  integrity sha512-p6frTKqrwUAa3MoKf8imaMqJ1iZepgDbHkpcTJd8wPTrFqqujUx/XSdp7v7XXpWnOT19AZegxfTgBu4Wpee35A==
   dependencies:
     bluebird "^3.5.4"
     ejs "^2.6.1"
