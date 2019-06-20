@@ -32,7 +32,7 @@ const formatResult = (r) => {
     });
   }
 
-  return r;
+  return result;
 };
 
 // eslint-disable-next-line import/prefer-default-export
