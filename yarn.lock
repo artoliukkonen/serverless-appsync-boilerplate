@@ -2105,16 +2105,16 @@ aws-appsync-codegen@^0.17.5:
     source-map-support "^0.4.15"
     yargs "^8.0.2"
 
-aws-sdk-mock@4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk-mock/-/aws-sdk-mock-4.4.0.tgz#90f27b6a4e19293e9ad8c25add8e7137c2db94ce"
-  integrity sha512-cnR2Sff2jSO2UazeGL3rp4ulg66I8mVeCWvKZk0Bb+s//b5sUDZ1OhvOqr7v6uRJKhgaikeZJdZtI6efHYsN2Q==
+aws-sdk-mock@4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk-mock/-/aws-sdk-mock-4.5.0.tgz#9de5feefaf9c755f22fcf029db3f202599a9219e"
+  integrity sha512-PAZKbQsdaVVoMr1JZbi04FUrkxCK16qnwBWLm4keeBrEfqYab/cFNsn5IVp/ThdMQpJGYHnmqUPyFq1plKaHZg==
   dependencies:
-    aws-sdk "^2.431.0"
-    sinon "^7.3.1"
+    aws-sdk "^2.483.0"
+    sinon "^7.3.2"
     traverse "^0.6.6"
 
-aws-sdk@^2.177.0, aws-sdk@^2.238.1, aws-sdk@^2.254.1, aws-sdk@^2.373.0, aws-sdk@^2.404.0, aws-sdk@^2.425.0, aws-sdk@^2.430.0, aws-sdk@^2.431.0, aws-sdk@^2.452.0, aws-sdk@^2.7.0:
+aws-sdk@^2.177.0, aws-sdk@^2.238.1, aws-sdk@^2.254.1, aws-sdk@^2.373.0, aws-sdk@^2.404.0, aws-sdk@^2.425.0, aws-sdk@^2.430.0, aws-sdk@^2.452.0, aws-sdk@^2.7.0:
   version "2.454.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.454.0.tgz#d7c1ceec21b6245949c1934d9aedfad3aaf9694a"
   integrity sha512-1vB9DNIwh+mqKD2IZspYTQapCD6f5VnMT5V2VPlXJ1CNcUdFSU8FFyxKmYApNs+S3re1h3fhWDjpwTreS+XLRQ==
@@ -2133,6 +2133,21 @@ aws-sdk@^2.4.0:
   version "2.467.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.467.0.tgz#803831646fc3322ce51181c9f586f17770cdf850"
   integrity sha512-rbVYwpAkoicdgszVClxSkzmoIQwlsrMy/vBoYZesuhUrLOXMefr/mYtpyqkiupCIG9MsqpnYUJYYNlllq4sRPQ==
+  dependencies:
+    buffer "4.9.1"
+    events "1.1.1"
+    ieee754 "1.1.8"
+    jmespath "0.15.0"
+    querystring "0.2.0"
+    sax "1.2.1"
+    url "0.10.3"
+    uuid "3.3.2"
+    xml2js "0.4.19"
+
+aws-sdk@^2.483.0:
+  version "2.491.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.491.0.tgz#9bb4d1c48b18310aca6912d8fe2a4df8d0a3cd2b"
+  integrity sha512-xhTdBrzW/VaudjhgCMW1woIm4O0CiKoZR8xeEh2pqC8Ph1aJnkvUnHvaUbqB6c65ZBD44lR0zCbH2Yw+OSNU9A==
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
@@ -10541,7 +10556,7 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
-sinon@^7.3.1:
+sinon@^7.3.2:
   version "7.3.2"
   resolved "https://registry.yarnpkg.com/sinon/-/sinon-7.3.2.tgz#82dba3a6d85f6d2181e1eca2c10d8657c2161f28"
   integrity sha512-thErC1z64BeyGiPvF8aoSg0LEnptSaWE7YhdWWbWXgelOyThent7uKOnnEh9zBxDbKixtr5dEko+ws1sZMuFMA==
