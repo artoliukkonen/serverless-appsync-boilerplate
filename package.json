@@ -42,7 +42,7 @@
     "aws-sdk": "^2.452.0",
     "serverless-appsync-plugin": "^1.1.2",
     "serverless-cf-vars": "^0.3.1",
-    "uuid": "^3.3.2"
+    "uuid": "^7.0.0"
   },
   "resolutions": {
     "aws-amplify-serverless-plugin/**/jest-cli": "^24.8.0",
