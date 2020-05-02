@@ -1348,18 +1348,6 @@
   dependencies:
     "@types/babel-types" "*"
 
-"@types/chai-spies@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@types/chai-spies/-/chai-spies-1.0.0.tgz#1442daa924d2a8c3f20253db5e5e8fdd1fd4f229"
-  integrity sha512-Bj/froHomMnlAPEYEeqhmSuNSjTWW/VuSvCVdhLdcb67+dy4ffjTR6fC0YYw9tHP6KR3U8fkF1mgzmzlChHc5Q==
-  dependencies:
-    "@types/chai" "*"
-
-"@types/chai@*":
-  version "4.1.7"
-  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.1.7.tgz#1b8e33b61a8c09cbe1f85133071baa0dbf9fa71a"
-  integrity sha512-2Y8uPt0/jwjhQ6EiluT0XCri1Dbplr0ZxfFXUz+ye13gaqE8u5gL5ppao1JrUYr9cIip5S6MvQzBS7Kke7U9VA==
-
 "@types/events@*":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@types/events/-/events-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
@@ -1408,11 +1396,6 @@
   version "12.0.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.0.1.tgz#3dde31f8da274dfeb90e96abf55038fef46285f0"
   integrity sha512-7sy7DKVJrCTbaAERJZq/CU12bzdmpjRr321/Ne9QmzhB3iZ//L16Cizcni5hHNbANxDbxwMb9EFoWkM8KPkp0A==
-
-"@types/node@^11.11.3":
-  version "11.13.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-11.13.10.tgz#4df59e5966b56f512bac98898bcbee5067411f0f"
-  integrity sha512-leUNzbFTMX94TWaIKz8N15Chu55F9QSH+INKayQr5xpkasBQBRF3qQXfo3/dOnMU/dEIit+Y/SU8HyOjq++GwA==
 
 "@types/rimraf@^2.0.2":
   version "2.0.2"
@@ -2114,7 +2097,7 @@ aws-sdk-mock@4.4.0:
     sinon "^7.3.1"
     traverse "^0.6.6"
 
-aws-sdk@^2.177.0, aws-sdk@^2.238.1, aws-sdk@^2.254.1, aws-sdk@^2.373.0, aws-sdk@^2.404.0, aws-sdk@^2.425.0, aws-sdk@^2.430.0, aws-sdk@^2.431.0, aws-sdk@^2.452.0, aws-sdk@^2.7.0:
+aws-sdk@^2.238.1, aws-sdk@^2.254.1, aws-sdk@^2.373.0, aws-sdk@^2.404.0, aws-sdk@^2.425.0, aws-sdk@^2.430.0, aws-sdk@^2.431.0, aws-sdk@^2.452.0, aws-sdk@^2.7.0:
   version "2.454.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.454.0.tgz#d7c1ceec21b6245949c1934d9aedfad3aaf9694a"
   integrity sha512-1vB9DNIwh+mqKD2IZspYTQapCD6f5VnMT5V2VPlXJ1CNcUdFSU8FFyxKmYApNs+S3re1h3fhWDjpwTreS+XLRQ==
@@ -10262,14 +10245,12 @@ serverless-cf-vars@^0.3.1:
   dependencies:
     lodash "4.17.11"
 
-serverless-domain-manager@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/serverless-domain-manager/-/serverless-domain-manager-3.2.1.tgz#bc847d3f0f25f2957f457873bf5ddc6c56494c9d"
-  integrity sha512-vn/MLRoUDjAlqxDBCgtzqYBfE8ykxyLj3Mjpy18sfkprgfE8TXIwpzz6Pnxl6IEqjyewnhCC/IA2Z8IVLypYZQ==
+serverless-domain-manager@3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/serverless-domain-manager/-/serverless-domain-manager-3.3.2.tgz#143d6956f68efa5fa53e54681d2733a9d55630d5"
+  integrity sha512-ApJaDSZ24PzdTuxFJ1WpOQjZTrpUxtpIFZQip/EOBw2joKq3W34wzAyMINj+cT7TuCB10bfkPbAjEJENPZfgGQ==
   dependencies:
-    "@types/chai-spies" "^1.0.0"
-    "@types/node" "^11.11.3"
-    aws-sdk "^2.177.0"
+    aws-sdk "^2.490.0"
     chalk "^2.4.1"
 
 serverless-dynamodb-local@0.2.37:
