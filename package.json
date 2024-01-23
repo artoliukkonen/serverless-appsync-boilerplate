@@ -16,7 +16,7 @@
     "@babel/preset-env": "7.4.4",
     "@silvermine/serverless-plugin-cloudfront-lambda-edge": "2.1.1",
     "aws-amplify-serverless-plugin": "1.4.1",
-    "aws-sdk-mock": "4.4.0",
+    "aws-sdk-mock": "5.9.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "24.8.0",
     "babel-loader": "8.0.6",
