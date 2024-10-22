@@ -11,9 +11,9 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "7.4.4",
-    "@babel/core": "7.4.4",
-    "@babel/preset-env": "7.4.4",
+    "@babel/cli": "7.25.9",
+    "@babel/core": "7.25.9",
+    "@babel/preset-env": "7.25.9",
     "@silvermine/serverless-plugin-cloudfront-lambda-edge": "2.1.1",
     "aws-amplify-serverless-plugin": "1.4.1",
     "aws-sdk-mock": "4.4.0",
